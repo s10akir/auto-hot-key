@@ -8,6 +8,7 @@ SetWorkingDir, %A_ScriptDir%
 !s::Send ^s
 !t::Send ^t
 +!t::Send +^t
+!r::Send ^r
 !w::Send ^w
 !q::Send !{F4}
 !Enter::Send ^{Enter}
