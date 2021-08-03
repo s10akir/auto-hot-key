@@ -1,7 +1,6 @@
 #SingleInstance, Force
 SendMode Input
 SetWorkingDir, %A_ScriptDir%
-
 !c::Send ^c
 !v::Send ^v
 !a::Send ^a
@@ -11,5 +10,6 @@ SetWorkingDir, %A_ScriptDir%
 !r::Send ^r
 !w::Send ^w
 !x::Send ^x
+!k::Send ^k
 !q::Send !{F4}
 !Enter::Send ^{Enter}
